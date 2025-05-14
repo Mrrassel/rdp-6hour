@@ -29,7 +29,7 @@ jobs:
     - name: Connect Ngrok Tunnel
       run: |
         $env:Path += ";$env:USERPROFILE\ngrok"
-        & "$env:USERPROFILE\ngrok\ngrok.exe" authtoken 2wPgxVduGualacxoa361Yzj6dTj_3vbkCLAw6Ca1xmgFZxrNR
+        & "$env:USERPROFILE\ngrok\ngrok.exe" authtoken 2x5VHNuMIcQeQlqBwRq2zQgW8JO_6aSteSuCTxnQwni2m2nGt
         Start-Process "$env:USERPROFILE\ngrok\ngrok.exe" -ArgumentList "tcp 3389" -WindowStyle Hidden
       shell: powershell
 
